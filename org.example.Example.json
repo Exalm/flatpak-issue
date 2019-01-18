@@ -1,0 +1,19 @@
+{
+    "app-id" : "org.example.Example",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "master",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "example",
+    "modules" : [
+        {
+            "name" : "example",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/Exalm/flatpak-issue.git"
+                }
+            ]
+        }
+    ]
+}
